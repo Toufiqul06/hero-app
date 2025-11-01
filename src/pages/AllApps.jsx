@@ -20,6 +20,8 @@ const AllApps = () => {
     return <p className="text-center py-10 text-red-500">Error loading apps!</p>;
   }
 
+  
+
   return (
     <div className="bg-gray-100 min-h-screen">
       <div className="py-10 text-center">

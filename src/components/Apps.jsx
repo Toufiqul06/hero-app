@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowDown, FaStar } from "react-icons/fa";
-import { toast } from "react-toastify";
+import { toast, ToastContainer } from "react-toastify";
 
 const Apps = ({ appData }) => {
   const { title,image, size, ratingAvg,id} = appData;
@@ -25,7 +25,7 @@ const Apps = ({ appData }) => {
           <img
             src={image}
             alt={title}
-            className="w-full p-5 h-full object-cover transform hover:scale-105 transition-transform duration-300"
+            className="w-full p-10 h-full object-cover transform hover:scale-105 transition-transform duration-300"
           />
         </figure>
         <div className="p-2">
@@ -38,6 +38,7 @@ const Apps = ({ appData }) => {
           >
             <FaArrowDown />
             <p>{size}M</p>
+            <ToastContainer></ToastContainer>
           </button>
 
           <div className="btn flex items-center text-orange-500 gap-2">

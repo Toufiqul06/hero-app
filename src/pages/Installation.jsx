@@ -1,60 +1,55 @@
 import React, { useEffect, useState } from "react";
 import { FaArrowDown, FaStar } from "react-icons/fa";
-import { toast } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Installation = () => {
   const [installedApps, setInstalledApps] = useState([]);
-  const [sortOrder, setSortOrder] = useState("Sort By Size"); // ✅ new: track high/low sort
+  const [sortOrder, setSortOrder] = useState("default");
 
-  // ✅ Load from localStorage
   useEffect(() => {
     const stored = JSON.parse(localStorage.getItem("installedApps")) || [];
     setInstalledApps(stored);
   }, []);
 
-  // ✅ Uninstall app with toast
   const handleUninstall = (id) => {
     const updated = installedApps.filter((app) => app.id !== id);
     setInstalledApps(updated);
     localStorage.setItem("installedApps", JSON.stringify(updated));
-    toast.info("App uninstalled successfully 🗑️");
+    toast.info("App uninstalled successfully");
   };
 
   const handleSort = (e) => {
-  const value = e.target.value;
-  setSortOrder(value);
+    const value = e.target.value;
+    setSortOrder(value);
 
-  let sorted = [...installedApps];
-
-  if (value === "high") {
-    sorted.sort((a, b) => parseFloat(b.size) - parseFloat(a.size));
-  } else if (value === "low") {
-    sorted.sort((a, b) => parseFloat(a.size) - parseFloat(b.size));
-  } 
-  // if default, no sorting
-  setInstalledApps(sorted);
-};
-
+    let sorted = [...installedApps];
+    if (value === "high") {
+      sorted.sort((a, b) => parseFloat(b.size) - parseFloat(a.size));
+    } else if (value === "low") {
+      sorted.sort((a, b) => parseFloat(a.size) - parseFloat(b.size));
+    } else {
+      sorted = JSON.parse(localStorage.getItem("installedApps")) || [];
+    }
+    setInstalledApps(sorted);
+  };
 
   return (
     <div className="container mx-auto px-6 py-8">
-      <h1 className="text-4xl font-bold text-center mb-2">
-        Your Installed Apps
-      </h1>
+      <h1 className="text-4xl font-bold text-center mb-2">Your Installed Apps</h1>
       <p className="text-gray-500 text-center mb-8">
-        Explore All Trending Apps on the Market developed by us
+        Manage and explore your installed applications
       </p>
 
-      {/* ✅ Header Section */}
-      <div className="pb-5 flex justify-between items-center">
+      <div className="pb-5 px-10 flex justify-between items-center flex-wrap gap-3">
         <h2 className="text-2xl font-bold">
-          {installedApps.length} Apps Found
+          {installedApps.length} App Found
         </h2>
 
         <select
           onChange={handleSort}
           value={sortOrder}
-          className="border border-gray-300 rounded-md px-3 py-1 text-gray-600 text-sm focus:outline-none"
+          className="border border-gray-300 rounded-md px-3 py-1.5 text-gray-700 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-400"
         >
           <option value="default">Sort By Size</option>
           <option value="high">High to Low</option>
@@ -62,41 +57,41 @@ const Installation = () => {
         </select>
       </div>
 
-      {/* ✅ Installed Apps */}
       {installedApps.length === 0 ? (
-        <p className="text-center text-gray-500">No apps installed yet.</p>
+        <div className="text-center text-gray-500 py-10 text-lg">
+          No apps installed yet.
+        </div>
       ) : (
         <div className="space-y-4">
           {installedApps.map((app) => (
             <div
               key={app.id}
-              className="flex items-center justify-between bg-white p-4 rounded-xl shadow"
+              className="flex items-center justify-between bg-white p-5 rounded-2xl"
             >
-              <div className="flex items-center space-x-4">
+              <div className="flex items-center gap-4">
                 <img
                   src={app.image || "https://via.placeholder.com/60"}
                   alt={app.title}
-                  className="w-14 h-14 rounded-md object-cover"
+                  className="w-16 h-16 rounded-lg object-cover"
                 />
                 <div>
-                  <h3 className="font-semibold text-2xl pb-3">{app.title}</h3>
-                  <div className="flex items-center text-sm text-gray-500 gap-5">
-                    <h3 className="flex items-center text-green-500 gap-2">
+                  <h3 className="font-semibold text-xl">{app.title}</h3>
+                  <div className="flex items-center text-sm text-gray-500 gap-4 mt-1">
+                    <span className="flex items-center text-green-500 gap-1">
                       <FaArrowDown />
-                      <p>{app.size}M</p>
-                    </h3>
-                    <h3 className="flex items-center text-orange-500 gap-2">
-                      <FaStar /> {app.ratingAvg}
-                    </h3>
-                    <h3 className="flex items-center text-gray-500 gap-2">
                       {app.size} MB
-                    </h3>
+                    </span>
+                    <span className="flex items-center text-orange-500 gap-1">
+                      <FaStar />
+                      {app.ratingAvg}
+                    </span>
                   </div>
                 </div>
               </div>
+
               <button
                 onClick={() => handleUninstall(app.id)}
-                className="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-md font-medium"
+                className="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-md font-medium transition"
               >
                 Uninstall
               </button>
@@ -104,6 +99,8 @@ const Installation = () => {
           ))}
         </div>
       )}
+
+      <ToastContainer position="top-right" autoClose={2000} />
     </div>
   );
 };
