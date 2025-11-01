@@ -1,0 +1,383 @@
+[
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733585.png",
+    "title": "ChatWave",
+    "companyName": "WaveTech Ltd",
+    "id": 1,
+    "description": "ChatWave is a secure and fast messaging app that helps you stay connected with friends, family, and colleagues across the globe. Featuring end-to-end encryption, it ensures your conversations remain private. With voice and video calls, group chats, media sharing, and smart message scheduling, ChatWave makes communication effortless. Multi-device sync allows seamless switching between devices. Customizable themes, stickers, and emojis make your chats lively and personal. The app is optimized for low-network environments, so you can stay connected even when traveling or in areas with weak signal. With millions of downloads and thousands of positive reviews, ChatWave is trusted for its reliability, ease of use, and performance. Whether organizing plans, sharing moments, or connecting with loved ones, ChatWave offers a smooth and enjoyable messaging experience every day.",
+    "size": 45,
+    "reviews": 24000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 13700 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/733/733585.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+    "title": "PhotoCraft",
+    "companyName": "PixelForge Studios",
+    "id": 2,
+    "description": "PhotoCraft is a powerful photo editing app that lets users enhance images with professional-quality tools and AI-driven filters. Edit photos with advanced adjustments like brightness, contrast, saturation, and sharpness, or apply creative filters and effects for stunning results. Crop, rotate, remove backgrounds, and add text or stickers with ease. AI tools allow automatic enhancements, color corrections, and artistic transformations. Users can organize photos into albums and share creations on social media directly. PhotoCraft is designed for both beginners and professional photographers, offering intuitive interfaces while providing advanced controls. Whether retouching selfies, creating social media content, or preserving memories, PhotoCraft delivers exceptional editing capabilities. Regular updates provide new effects and tools to keep your photos fresh and creative. With millions of downloads and positive feedback, PhotoCraft is a trusted companion for photography enthusiasts.",
+    "size": 120,
+    "reviews": 18500,
+    "ratingAvg": 4.3,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 9300 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/888/888879.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968520.png",
+    "title": "FitLife",
+    "companyName": "ActiveLabs",
+    "id": 3,
+    "description": "FitLife is your ultimate fitness companion, helping you track workouts, monitor nutrition, and achieve your health goals. The app provides personalized exercise plans, diet tracking, progress monitoring, and detailed analytics to stay on top of your fitness journey. Users can log exercises, track calories, and receive reminders to stay consistent. FitLife integrates wearable devices and heart rate monitors to offer accurate insights. With community challenges, motivation boards, and goal setting, the app keeps users engaged and accountable. Fitness enthusiasts of all levels can benefit from guided workout videos, nutrition advice, and health tips. Whether weight loss, muscle gain, or maintaining an active lifestyle, FitLife provides tools to stay healthy and motivated. Its user-friendly interface, detailed reporting, and performance tracking have made it a trusted app with millions of downloads worldwide.",
+    "size": 75,
+    "reviews": 54000,
+    "ratingAvg": 4.7,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 37400 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/5968/5968520.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888849.png",
+    "title": "NoteEase",
+    "companyName": "CloudSync Inc",
+    "id": 4,
+    "description": "NoteEase is a cloud-synced note-taking app that keeps your thoughts, ideas, and reminders organized and easily accessible across devices. Users can create notes, checklists, and voice memos, and categorize them using tags or folders for quick retrieval. NoteEase offers real-time collaboration, allowing you to share notes and work on projects with friends or colleagues. With rich text formatting, image insertion, and attachments, you can create visually appealing and functional notes. The app provides reminders, recurring alerts, and notifications to keep you on track. Offline access ensures productivity even without internet. Designed with simplicity and speed in mind, NoteEase makes capturing ideas effortless. With millions of users appreciating its efficiency, it’s ideal for students, professionals, and anyone who wants a reliable digital notebook to manage tasks and boost productivity.",
+    "size": 25,
+    "reviews": 9500,
+    "ratingAvg": 4.4,
+    "downloads": 2400000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 3100 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/888/888849.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968759.png",
+    "title": "Soundify",
+    "companyName": "MelodyWorks",
+    "id": 5,
+    "description": "Soundify is a music streaming app that allows you to enjoy millions of songs and discover new artists every day. With personalized playlists, offline listening, and curated recommendations, Soundify ensures your music experience is smooth and enjoyable. Users can create playlists, share them with friends, and explore trending charts from around the world. The app features high-quality audio streaming, custom equalizers, and a smart search engine to find tracks quickly. Podcasts and live radio channels are also available for diverse entertainment. Soundify’s user-friendly interface and adaptive algorithms tailor the listening experience to your preferences. Regular updates bring new releases, exclusive content, and seasonal playlists. With its vast music library, social features, and seamless performance, Soundify is perfect for music lovers seeking a comprehensive and immersive listening platform.",
+    "size": 90,
+    "reviews": 120000,
+    "ratingAvg": 4.6,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 80000 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/5968/5968759.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111612.png",
+    "title": "QuickRide",
+    "companyName": "UrbanMove Co",
+    "id": 6,
+    "description": "QuickRide is a ride-hailing app that lets users book rides instantly and reach destinations quickly and affordably. The app provides real-time tracking, fare estimates, and multiple vehicle options to suit every need. Users can schedule rides in advance, share trip details with friends for safety, and rate drivers for better service. QuickRide supports digital payments for a seamless experience and offers promotions and loyalty rewards. The app’s interface is intuitive, allowing fast ride requests and easy route selection. QuickRide prioritizes safety with verified drivers, insurance coverage, and emergency features. It also integrates with maps and traffic data to ensure efficient travel. Perfect for daily commuters, travelers, or anyone needing fast transportation, QuickRide combines convenience, reliability, and affordability in one platform.",
+    "size": 65,
+    "reviews": 67000,
+    "ratingAvg": 4.2,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 28000 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/2111/2111612.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888853.png",
+    "title": "StudyMate",
+    "companyName": "EduLabs",
+    "id": 7,
+    "description": "StudyMate is an interactive learning app designed to support students with quizzes, notes, and personalized study plans. It offers subject-specific modules, adaptive practice questions, and progress tracking to help users learn efficiently. StudyMate also includes flashcards, mock exams, and gamified challenges to make studying fun and engaging. Users can collaborate with peers, share study materials, and join discussion forums to clarify concepts. The app provides detailed performance analytics, highlighting strengths and areas for improvement. Whether preparing for school exams, standardized tests, or skill-based certifications, StudyMate equips learners with structured resources. Regular content updates, educational articles, and AI-powered recommendations ensure a comprehensive and up-to-date learning experience. With a user-friendly interface and proven results, StudyMate helps students improve knowledge retention, exam readiness, and academic performance effectively.",
+    "size": 55,
+    "reviews": 27000,
+    "ratingAvg": 4.8,
+    "downloads": 7200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 19100 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/888/888853.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968342.png",
+    "title": "FoodCrate",
+    "companyName": "YumNation",
+    "id": 8,
+    "description": "FoodCrate is a convenient food delivery app that connects users to a wide range of restaurants and cuisines. Browse menus, place orders, and track deliveries in real-time. Users can customize dishes, schedule orders, and enjoy secure payment options. FoodCrate provides ratings, reviews, and recommendations to make ordering decisions easier. The app supports promotions, discounts, and loyalty rewards to save money while enjoying meals. With optimized delivery routing, orders arrive quickly and reliably. FoodCrate also features healthy choices, dietary filters, and seasonal menus to cater to diverse preferences. Whether ordering a quick snack or a full meal, FoodCrate simplifies the process and enhances the dining experience. With millions of satisfied users, it’s a trusted solution for food lovers seeking speed, convenience, and quality.",
+    "size": 85,
+    "reviews": 89000,
+    "ratingAvg": 4.1,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 32000 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/5968/5968342.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888857.png",
+    "title": "TravelGo",
+    "companyName": "Explorer Co",
+    "id": 9,
+    "description": "TravelGo is a comprehensive travel planning app that helps users book flights, hotels, and experiences while exploring destinations worldwide. Users can compare prices, read reviews, and receive personalized recommendations based on preferences and travel history. The app offers itinerary management, local guides, maps, and offline access to essential travel information. TravelGo supports alerts for flight delays, gate changes, and weather updates to ensure smooth journeys. Users can share plans with friends and collaborate on group trips. It also features curated travel deals, seasonal packages, and loyalty programs for cost savings. TravelGo aims to simplify the travel experience, making it accessible, efficient, and enjoyable. Whether planning a weekend getaway or an international adventure, TravelGo equips users with tools, insights, and inspiration to travel smarter and stress-free.",
+    "size": 110,
+    "reviews": 42000,
+    "ratingAvg": 4.6,
+    "downloads": 9400000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 23500 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/888/888857.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111370.png",
+    "title": "ShopNest",
+    "companyName": "Commerce360",
+    "id": 10,
+    "description": "ShopNest is an online shopping app designed to provide a seamless and enjoyable shopping experience. Users can browse thousands of products across categories like fashion, electronics, home goods, and more. The app offers exclusive discounts, flash sales, and personalized recommendations based on browsing and purchase history. Users can add items to wishlists, track deliveries, and enjoy fast checkout with multiple secure payment options. ShopNest features product reviews, ratings, and detailed descriptions to help users make informed decisions. The app also supports return and exchange management, ensuring a hassle-free shopping experience. With curated collections, seasonal promotions, and loyalty rewards, ShopNest caters to both casual shoppers and bargain hunters. Its user-friendly interface, reliable performance, and expansive product catalog make it a top choice for online shopping enthusiasts worldwide.",
+    "size": 95,
+    "reviews": 99000,
+    "ratingAvg": 4.4,
+    "downloads": 18000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 49000 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/2111/2111370.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733609.png",
+    "title": "Newsify",
+    "companyName": "DailyHub",
+    "id": 11,
+    "description": "Newsify is a personalized news app that delivers breaking news, articles, and updates from around the world directly to your device. Users can follow topics, categories, or specific sources to curate a news feed tailored to their interests. Newsify provides real-time alerts for major events, and the app supports offline reading for convenience. Interactive features include saving articles, sharing news on social media, and commenting on stories. The app uses intelligent algorithms to recommend relevant content while maintaining a clean, easy-to-read interface. With multimedia support for videos, podcasts, and images, Newsify enhances the reading experience. Ideal for professionals, students, and everyday readers, Newsify helps users stay informed and up-to-date on global and local events with reliable, curated content.",
+    "size": 40,
+    "reviews": 36000,
+    "ratingAvg": 4.3,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 15700 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/733/733609.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/174/174855.png",
+    "title": "TaskHero",
+    "companyName": "BoostWorks",
+    "id": 12,
+    "description": "TaskHero is a productivity app that helps users manage to-do lists, projects, and deadlines efficiently. It features task creation, prioritization, deadlines, and reminders, making it easier to stay organized. Users can collaborate with colleagues, assign tasks, and track progress in real-time. TaskHero offers project templates, recurring tasks, and a clean interface for a stress-free workflow. Integration with calendars and cloud storage ensures all important tasks are synced across devices. The app includes analytics to measure productivity trends and highlight completed and pending work. TaskHero’s flexibility and simplicity make it suitable for personal, academic, or professional use. Its robust performance and intuitive design help users boost efficiency, meet deadlines, and maintain focus on priorities in an increasingly busy world.",
+    "size": 38,
+    "reviews": 16000,
+    "ratingAvg": 4.7,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 9900 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/174/174855.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968866.png",
+    "title": "MindEase",
+    "companyName": "Calmify Labs",
+    "id": 13,
+    "description": "MindEase is a mental wellness and meditation app designed to help users reduce stress, improve focus, and maintain emotional balance. It offers guided meditations, breathing exercises, sleep stories, and mindfulness programs for different levels and needs. Users can track moods, set daily wellness goals, and access personalized recommendations to build healthy habits. MindEase includes calming sounds, ambient music, and relaxation techniques for reducing anxiety and promoting better sleep. The app provides expert guidance and a supportive community to enhance mental resilience. Regular updates add new meditation sessions and wellness challenges. Ideal for beginners and experienced practitioners alike, MindEase encourages consistent practice and mindfulness throughout daily life, helping users achieve a calmer, happier, and more focused mind.",
+    "size": 70,
+    "reviews": 22000,
+    "ratingAvg": 4.8,
+    "downloads": 6400000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 15100 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/5968/5968866.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111646.png",
+    "title": "GameZone",
+    "companyName": "PlayHub Studios",
+    "id": 14,
+    "description": "GameZone is a mobile gaming hub that offers thousands of games in one place, from casual puzzles to competitive multiplayer challenges. Users can discover new games, create profiles, and track achievements and scores. GameZone provides game recommendations based on play history, favorite genres, and community ratings. With social features like friend lists, chat, and leaderboards, players can compete and connect worldwide. The app ensures smooth performance with minimal loading times and optimized graphics. GameZone also hosts tournaments and events for competitive players. Regular updates introduce new games, features, and seasonal content. Designed for gamers of all ages, GameZone combines entertainment, community interaction, and performance tracking to deliver an engaging and immersive gaming experience.",
+    "size": 150,
+    "reviews": 78000,
+    "ratingAvg": 4.5,
+    "downloads": 22000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 42000 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/2111/2111646.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111628.png",
+    "title": "FinancePro",
+    "companyName": "MoneyMate",
+    "id": 15,
+    "description": "FinancePro is a personal finance management app that helps users track expenses, manage budgets, and stay on top of their financial goals. The app supports expense categorization, recurring transactions, bill reminders, and visual reports to simplify financial planning. Users can set budgets, monitor spending, and receive alerts when approaching limits. FinancePro offers insights and tips to optimize savings, investments, and debt management. Secure syncing across devices ensures real-time access to financial data. With a clean interface, data visualization, and interactive charts, FinancePro makes tracking finances intuitive and stress-free. Ideal for individuals and families, it empowers users to make informed financial decisions, save money, and maintain control over their financial health with confidence.",
+    "size": 60,
+    "reviews": 25000,
+    "ratingAvg": 4.6,
+    "downloads": 5800000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 13800 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/2111/2111628.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968282.png",
+    "title": "DocuScan",
+    "companyName": "Paperless Co",
+    "id": 16,
+    "description": "DocuScan is a mobile document scanning app that allows users to quickly scan, edit, and share documents using their phone camera. It supports PDF and image export, multi-page scanning, text recognition (OCR), and document enhancement for clear results. Users can organize scanned files into folders, tag documents, and sync with cloud storage. DocuScan also provides annotation tools, secure sharing options, and integration with email and productivity apps. The app optimizes images for clarity, reduces glare, and automatically crops pages. Ideal for students, professionals, and business users, DocuScan simplifies digitizing paperwork, contracts, receipts, and notes. With intuitive navigation, fast scanning, and reliable performance, it helps users manage documents efficiently and reduce paper clutter.",
+    "size": 35,
+    "reviews": 13000,
+    "ratingAvg": 4.5,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 8100 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/5968/5968282.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111432.png",
+    "title": "WeatherCast",
+    "companyName": "SkyTech",
+    "id": 17,
+    "description": "WeatherCast is a reliable weather forecasting app that provides accurate and up-to-date information, including temperature, precipitation, wind speed, humidity, and severe weather alerts. Users can access hourly, daily, and weekly forecasts, as well as live radar and satellite imagery. WeatherCast supports multiple locations, so you can track weather conditions at home or while traveling. Push notifications for severe weather and customizable alerts help users stay safe and prepared. The app features a clean, interactive interface with detailed charts, weather maps, and informative graphs. Ideal for commuters, travelers, and outdoor enthusiasts, WeatherCast ensures that users are always informed and ready to make decisions based on real-time weather conditions.",
+    "size": 48,
+    "reviews": 19500,
+    "ratingAvg": 4.2,
+    "downloads": 6200000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 7200 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/2111/2111432.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/174/174848.png",
+    "title": "StreamBox",
+    "companyName": "VibePlay",
+    "id": 18,
+    "description": "StreamBox is a high-definition video streaming app that allows users to watch movies, TV shows, and exclusive content anytime, anywhere. Users can browse genres, create watchlists, and receive personalized recommendations. StreamBox supports offline downloads, multiple device streaming, and adaptive streaming for smooth playback even with limited bandwidth. The app includes parental controls, subtitles, and multi-language support. With curated playlists, trending content, and new releases updated regularly, StreamBox provides an immersive viewing experience. Social features let users share favorites and discuss shows with friends. Ideal for casual viewers and cinephiles alike, StreamBox combines convenience, variety, and quality in one comprehensive entertainment platform, ensuring viewers always have access to engaging content.",
+    "size": 130,
+    "reviews": 71000,
+    "ratingAvg": 4.6,
+    "downloads": 17000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 21000 },
+      { "name": "5 star", "count": 34500 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/174/174848.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
+    "title": "LangLearn",
+    "companyName": "GlobalLingua",
+    "id": 19,
+    "description": "LangLearn is a language learning app that helps users acquire new languages through interactive lessons, quizzes, and voice recognition. The app supports speaking, listening, reading, and writing practice with progressive difficulty levels. Users can track progress, set learning goals, and receive daily challenges. LangLearn includes cultural tips, grammar explanations, and conversation practice to enhance understanding and fluency. Its AI-powered review system adapts to individual strengths and weaknesses, ensuring efficient learning. The app also allows practice with native speakers, group learning, and flashcard exercises. Suitable for beginners and advanced learners, LangLearn makes language acquisition engaging, effective, and fun. Whether preparing for exams, travel, or personal growth, it offers a comprehensive platform to master a new language.",
+    "size": 80,
+    "reviews": 50000,
+    "ratingAvg": 4.7,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 32900 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png"
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111670.png",
+    "title": "PetPal",
+    "companyName": "PawLabs",
+    "id": 20,
+    "description": "PetPal is an app designed to help pet owners connect, manage pet health, and access nearby services. Users can store vaccination records, set reminders for medications, and monitor pet activity. PetPal offers features to find veterinarians, pet sitters, and grooming services in the area. The app includes community forums for sharing tips, advice, and experiences with other pet owners. Users can track pet growth, behavior, and dietary habits. Notifications ensure timely care, appointments, and vaccinations. With event updates, pet-friendly locations, and adoption resources, PetPal serves as a complete companion for responsible pet care. Its user-friendly interface and reliable features help users enhance their pet’s well-being, connect with local pet communities, and simplify daily pet management.",
+    "size": 52,
+    "reviews": 14000,
+    "ratingAvg": 4.5,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 4100 },
+      { "name": "5 star", "count": 8900 }
+    ],
+    "realImage": "https://cdn-icons-png.flaticon.com/512/2111/2111670.png"
+  }
+
+]
