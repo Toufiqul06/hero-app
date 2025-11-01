@@ -6,7 +6,7 @@ import useApps from "../hooks/useApps";
 import { Link } from "react-router";
 
 const Home = () => {
-  const { Apps: allApps, loading, error } = useApps();
+  const { Apps: allApps} = useApps();
   console.log(allApps);
 
   const homeApps = allApps.slice(0, 8) || [];
