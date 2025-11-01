@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import useApps from "../hooks/useApps";
 import { Download, Star, MessageSquare } from "lucide-react";
 import { ToastContainer, toast } from "react-toastify";
+import AppsError from '../pages/AppsError'
 import {
   Bar,
   CartesianGrid,
@@ -22,8 +23,8 @@ const AppsDetails = () => {
 
   if (!app) {
     return (
-      <div className="text-center py-20 text-gray-500 text-lg">
-        App not found!
+      <div>
+        <AppsError></AppsError>
       </div>
     );
   }

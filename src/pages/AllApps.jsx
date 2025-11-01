@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import useApps from "../hooks/useApps";
 import Apps from "../components/Apps";
-import { Link } from "react-router-dom"; // fixed import
+import { Link } from "react-router-dom";
+import Loading from "../components/Loading"
 
 const AllApps = () => {
   const { Apps: allApps, loading, error } = useApps();
@@ -13,7 +14,7 @@ const AllApps = () => {
     : allApps;
 
   if (loading) {
-    return <p className="text-center py-10 text-lg">Loading...</p>;
+    return <Loading></Loading>;
   }
 
   if (error) {

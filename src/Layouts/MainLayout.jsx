@@ -6,11 +6,11 @@ import Navbar from '../Components/Navbar'
 const MainLayout = () => {
   return (
     <div className='flex flex-col min-h-screen'>
-      <Navbar></Navbar>
-      <div className=''>
+      <Navbar />
+      <main className="min-h-[80vh]">
         <Outlet />
-      </div>
-      <Footer></Footer>
+      </main>
+      <Footer />
     </div>
   )
 }
